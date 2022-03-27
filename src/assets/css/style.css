@@ -1,0 +1,74 @@
+/* basic setting */
+body {
+  background-color: blanchedalmond;
+}
+h2 {
+    font-family: 'DM Serif Text', serif;
+    font-size: large;
+    padding: 5em;
+}
+p {
+    padding: 5em;
+    font-size: 1em;
+}
+.smallfocus {
+    font-size: 1em;
+}
+.emaillink {
+    padding: 5em;
+    text-decoration: none;
+    color: green;
+}
+/* navigation */
+nav {
+    text-decoration: none;
+    padding: 5em;
+    font-family: 'DM Serif Text', serif;
+    font-size: 1em;
+}
+.nav-link {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+/* active Navlink */
+.active {
+    color: green;
+}
+/* projects blocks */
+.project-list {
+    padding: 5em;
+    align-items: center;
+}
+.project1 {
+    background-color: bisque;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.project2 {
+    background-color: rgb(224, 189, 145);
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.project3 {
+    background-color: rgb(204, 159, 105);
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+/* media query min-width 650px */
+@media only screen and (min-width: 650px) {
+body {
+  background-color: rgb(255, 224, 183);
+}
+p {
+    font-size: 2em;
+    padding: 5em;
+}
+}
